@@ -1,0 +1,45 @@
+# TextKit — 8 text tools for writers, bloggers and sellers
+
+**Convert case, count words, dedup lines, generate slugs, sort, trim and find/replace — one command each. No coding needed.**
+
+## Free (3 scripts)
+
+| Tool | What it does |
+|------|-------------|
+| **Convert text case** | upper, lower, title, sentence, snake, camel, kebab, slug |
+| **Word count** | lines, words, characters, paragraphs, top words |
+| **Remove duplicate lines** | dedup lines, keep first occurrence |
+
+## TextKit Desktop (paid — 199 ₴ / $7)
+
+Point-and-click version with **5 extra Pro tools**:
+
+- **Slug generator** — URL-friendly slugs from titles
+- **Sort lines** — alphabetical or numeric, with dedup
+- **Trim whitespace** — clean up messy text
+- **Find & replace in files** — across many files, with .bak backups
+- **Lorem Ipsum generator** — placeholder text
+
+Plus: preview-first safety, 30-day refund, free updates.
+
+## Quick start
+
+```bash
+# 1. Install Python (free): https://python.org
+# 2. Open a terminal in the scripts/ folder
+
+python case_convert.py essay.txt --to title
+python word_count.py essay.txt --top 10
+python remove_duplicate_lines.py essay.txt --out clean.txt
+```
+
+Requirements: **Python 3.8+**. No extra dependencies.
+
+## License
+
+The 3 free scripts are **MIT**. TextKit Desktop is a paid product.
+
+## Support
+
+Open an issue or email **sviatpukas21@gmail.com**.
+""" path="C:\x\mm\textkit\README.md"
